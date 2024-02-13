@@ -1,4 +1,4 @@
-<h1>Title: Government Schemes and Funding Explorer</h1>
+<h1>Title: Schemes and Funding Explorer</h1>
 
 <h2>Description:</h2>
 
