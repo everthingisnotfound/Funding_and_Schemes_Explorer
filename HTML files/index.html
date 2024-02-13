@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="..//CSS files/index.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <script src="bootstrap.bundle.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <title>Aatma-Nirbhar Bharat</title>
+    <style>
+        #tradition_fourth {
+            padding-top: 35px;
+            padding-bottom: 35px;
+        }
+
+        .card-slider {
+            width: 100%;
+        }
+
+        .card {
+            margin: 10px;
+            padding: 20px;
+            background-color: rgb(232, 202, 216);
+            border-radius: 10px;
+            box-shadow: 0 8px 8px rgb(109, 5, 62);
+        }
+
+        .card1 {
+            margin: 10px;
+            padding: 20px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 8px 8px rgb(109, 5, 62);
+        }
+
+        .text1 {
+            color: rgb(109, 5, 62);
+            text-align: center;
+            font-weight: bold;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+        #text2 {
+            text-align: center;
+        }
+
+        .carimg {
+            width: 50%;
+            border-radius: 5px;
+            height: 100px;
+            border: 2px solid rgb(109, 5, 62);
+            margin-bottom: 10px;
+        }
+
+        .slick-prev {
+            left: -75px;
+        }
+
+        .btne {
+            color: rgb(0, 255, 204);
+            font-size: 30px;
+        }
+
+        .btne:hover {
+            color: blue;
+        }
+
+        .more-button {
+            background-color: #3498db;
+            color: #fff;
+            padding: 5px 10px;
+            cursor: pointer;
+        }
+
+        .more-details {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            width: 100%;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            padding: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            z-index: 1;
+        }
+
+        .more-details p {
+            margin-bottom: 10px;
+        }
+
+        .more-button:hover+.more-details,
+        .more-details:hover {
+            display: block;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin-top: 20px;
+        }
+
+        th,
+        td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        tr:hover {
+            background-color: #f5f5f5;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo">
+                <img src="../images/logo.png" alt="Aatma-Nirbhar Bharat">
+            </div>
+            <div class="nav-links">
+                <a href="#">
+                    <p>Home</p>
+                </a>
+                <a href="#">
+                    <p>About</p>
+                </a>
+                <a href="#">
+                    <p>Contact Us</p>
+                </a>
+            </div>
+            <div class="login">
+                <a class="user-icon" href="#login">Login / Register</a>
+            </div>
+        </div>
+    </header>
+    <hr>
+
+    <main>
+        <div id="tradition_fourth" class="section">
+            <div class="container">
+                <div class="row thirdrow">
+                    <h2 class="text">Schemes</h2>
+                </div>
+                <div class="row">
+                    <div class="card-slider">
+                        <div class="card">
+                            <img src="../images/Ayushman Bharat Pradhan Mantri Jan Aarogya Yojana.jpg"
+                                class="Ayushman Bharat Pradhan Mantri Jan Aarogya Yojana">
+                            <h3 class="text1">Ayushman Bharat Pradhan Mantri Jan Aarogya Yojana</h3>
+                            <p id="text2"><b>Madhya Pradesh, </b>Central India</p><br>
+                            <p>Ayushman Bharat Yojana subsumes the Senior Citizen Health Insurance Scheme (SCHIS) and
+                                Rashtriya Swasthya Bima Yojna (RSBY) and is also known as the AB-PMJAY
+                                scheme.<br>Ayushman Bharat Yojana scheme caters not only the poor but rural families
+                                too, which is why it is economically beneficial to the poor and destitute households in
+                                rural and urban areas.</p>
+                            <div class="more-button">More...</div>
+                            <div class="more-details">
+                                <h2>Health Insurance Comparison</h2>
+
+                                <table class="Insurance-table">
+                                    <tr>
+                                        <th>Features</th>
+                                        <th>Basic Health Insurance</th>
+                                        <th>Government Health Insurance Scheme</th>
+                                    </tr>
+                                    <tr>
+                                        <td>Eligibility</td>
+                                        <td>Available to all sections of society</td>
+                                        <td>Available to lower-income groups only</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Sum Insured</td>
+                                        <td>Maximum sum insured of up to Rs 1 crore</td>
+                                        <td>Maximum sum insured of up to Rs 5 lakh</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Premium</td>
+                                        <td>Rs 200 per month onwards (depending on the plan)</td>
+                                        <td>Rs 100 per month onwards or fully paid by the government (depending on the
+                                            plan)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Coverage</td>
+                                        <td>Offers a broader coverage</td>
+                                        <td>Offers a narrow coverage</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Private Hospital Room</td>
+                                        <td>Available (depending on the plan)</td>
+                                        <td>May or may not be available</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Policy Purchase</td>
+                                        <td>Policy can be purchased instantly</td>
+                                        <td>Policy purchase may take time</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Network Hospitals</td>
+                                        <td>Wide network of empanelled private hospitals</td>
+                                        <td>A large number of public and private network hospitals</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Maternity Benefits</td>
+                                        <td>Available (depending on the plan)</td>
+                                        <td>Available (Only for a single child under some cases)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Ambulance Charges</td>
+                                        <td>Available under most plans</td>
+                                        <td>Available under a few plans</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Domiciliary Hospitalization Cover</td>
+                                        <td>Available (depending on the plan)</td>
+                                        <td>Not available</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Online Renewal</td>
+                                        <td>Can be renewed online</td>
+                                        <td>May or may not be renewed online</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Cumulative Bonus</td>
+                                        <td>Available if no claim was filed in the previous policy year</td>
+                                        <td>Not available</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Health Check-up</td>
+                                        <td>Covered under some plans</td>
+                                        <td>Not covered</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Monthly Premium Instalment Facility</td>
+                                        <td>Available under some plans</td>
+                                        <td>Not available</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Tax Benefits</td>
+                                        <td>Available under Income Tax Act 1961</td>
+                                        <td>Not available</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="../images/Pradhan Mantri Suraksha Bima Yojana.jpg"
+                                class="Pradhan Mantri Suraksha Bima Yojana">
+                            <h3 class="text1">Pradhan Mantri Suraksha Bima Yojana</h3>
+                            <p id="text2"><b>India</b></p>
+                            <br>
+                            <p>As we celebrate the 8th anniversaries of the three social security (Jan Suraksha) schemes — Pradhan Mantri Jeevan Jyoti Bima Yojana (PMJJBY), Pradhan Mantri Suraksha Bima Yojana (PMSBY) and Atal Pension Yojana (APY),<br>let us recount how these schemes have enabled affordable insurance and security to people (Jan Suraksha).</p>
+                            <div class="more-button">More...</div>
+                            <div class="more-details">
+                                <h2>Health Insurance Comparison</h2>
+                                <p>
+                                    Scheme: PMSBY is a one-year accidental insurance scheme renewable from year to year
+                                    offering coverage for death or disability due to accident.
+
+                                    Eligibility: Persons in the age group of 18-70 years having an individual bank or a
+                                    post office account are entitled to enroll under the scheme.
+
+                                    Benefits: Accidental death cum disability cover of Rs.2 lakh (Rs.1 lakh in case of
+                                    partial disability) for death or disability due to an accident against a premium of
+                                    Rs.20/- per annum.
+
+                                    Enrolment: Enrolment under the scheme can be done by visiting the branch/ BC point
+                                    or website of the bank of the account holder or at the post office in case of post
+                                    office savings bank account. The premium under the scheme is auto debited every year
+                                    from the subscriber’s bank account based on a one-time mandate from the account
+                                    holder. Detailed information about the scheme and the forms (in Hindi, English and
+                                    Regional languages) are available on https://jansuraksha.gov.in.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="../images/National Technical Textile Mission.jpg" class="National Technical Textile Mission">
+                            <h3 class="text1">National Technical Textile Mission</h3>
+                            <p id="text2"><b>Delhi, </b>North India</p>
+                            <p>Textile materials that are manufactured for their technical performances and functional properties rather than aesthetic and decorative features falls under the technical textiles category. These products are broadly classified into 12 different categories- Agrotech, Oekotech, Buildtech, Meditech, Geotech, Clothtech, Mobiltech, Hometech, Sportstech,Indutech, Protech, Packtech.</p>
+                            <div class="more-button">More...</div>
+                            <div class="more-details">
+                                <h2>Health Insurance Comparison</h2>
+                            </div>    
+                        </div>
+                        <div class="card">
+                            <img src="IMAGES/book_8.png" class="img-fluid carimg">
+                            <h3 class="text1"> Manipuri</h3>
+                            <p id="text2"><b>Manipur, </b>North East India</p>
+                            <p>As you stroll towards the North-east India which is brimming with the rich tradition and
+                                their unique culture, Manipuri comes as important symbol to represent the state of
+                                Manipur from the region. This dance form is performed to narrate the romantic
+                                relationship between the Hindu gods Radha and Krishna, which is famously known as
+                                RaasLeela and in team with traditional Manipuri Costumes.</p>
+                        </div>
+                        <div class="card">
+                            <img src="IMAGES/book_6.jpg" class="img-fluid carimg">
+                            <h3 class="text1">Kuchipudi</h3>
+                            <p id="text2"><b>Andhra Pradesh, </b>South India</p>
+                            <p>Belonging to the Andhra Pradesh, Kuchipudi is probably the toughest form of classical
+                                dance in India. Kuchipudi is not just considered as the dance but whole religious
+                                procedure dedicated to God which includes certain rituals such as sprinkling the holy
+                                water, burning the incense sticks and praying to God. It includes both singing and
+                                dancing by the performer which is why it requires the skill.</p>
+                        </div>
+                        <div class="card">
+                            <img src="IMAGES/book_4.jpg" class="img-fluid carimg">
+                            <h3 class="text1">Odissi</h3>
+                            <p id="text2"><b>Odisha, </b>East India</p>
+                            <p>Odissi dance form comes from the state of Odisha in the eastern part of India. The
+                                traditional dance has been derived from the Hindu temples in Odisha. Most of the
+                                gestures and movements (Mudras) are inspired by the sculptors and idols belonging to the
+                                ancient temples of India. The dance is performed as a way to express the mythological
+                                tales of Hindu gods, including that of Shiva and Surya. </p>
+                        </div>
+                        <div class="card">
+                            <img src="IMAGES/book_10.png" class="img-fluid carimg">
+                            <h3 class="text1">Bhangra/Gidda</h3>
+                            <p id="text2"><b>Punjab, </b>North India</p>
+                            <p>Belonging to Punjab, Bhangra is a heart-pumping dance adorned with the loud beats of
+                                dhol( traditional Indian instrument). It is very prevalent in traditional Punjabi
+                                festivals. It is done in the season of harvesting. According to Manuel (2001), bhangra
+                                is especially associated with the vernal Vaisakhi festival. It was mainly performed
+                                while farmers did agricultural chores. </p>
+                        </div>
+                        <div class="card">
+                            <img src="IMAGES/book_5.jpg" class="img-fluid carimg">
+                            <h3 class="text1">Bihu</h3>
+                            <p id="text2"><b>Assam, </b>North-east India</p>
+                            <p>Young men and women mostly perform this joyous folk dance from Assam during the Bihu
+                                festival. The dancers follow a pattern of rapid hand movement, quick steps and a
+                                rhythmic swaying of hips wearing the traditional Assamese clothing with beautiful
+                                accessories. Marking the beginning of spring season, Bihu recites the happiness and
+                                heritage of Assam and is performed on the occasion of Rangali Bihu. </p>
+                        </div>
+                        <div class="card">
+                            <img src="IMAGES/book_9.jpg" class="img-fluid carimg">
+                            <h3 class="text1">Lavani</h3>
+                            <p id="text2"><b>Maharashtra, </b>West India</p>
+                            <p>Originated from the state of the Maratha empire, Lavani is a dance form of Maharashtra.
+                                The female-oriented dance is a blend of traditional music and tales of deities. The
+                                origin of Lavani comes from the word Lavanya which means beauty. Apart from helping in
+                                the upliftment of the Marathi folk theatre, the dance form was also a morale booster
+                                during the war in the 18th century. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section class="about">
+            <h2>About Us</h2>
+            <p>Your organization's description and details.</p>
+        </section>
+
+        <section class="events">
+            <h2>Upcoming Events</h2>
+            <div class="event-card">
+                <h3>Event Title 1</h3>
+                <p>Date: DD/MM/YYYY</p>
+                <p>Location: Event Location</p>
+            </div>
+            <!-- Repeat similar event cards for other events -->
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-nav">
+            <h2>Importans links</h2>
+            <a href="/" class="footer-navlink">Home</a>
+            <a href="/about" class="footer-navlink">About</a>
+            <a href="/contact" class="footer-navlink">Contact</a>
+            <a href="/cart" class="footer-navlink">Cart</a>
+        </div>
+
+        <div class="footer-subscribe">
+            <h2>Get in touch !</h2>
+            <div class="subscribe-footer">
+                <input type="email" placeholder="example05@" />
+                <button>Subscribe</button>
+            </div>
+        </div>
+
+        <div class="footer-social">
+            <h2>Social Platform</h2>
+            <div class="footer-social-icons">
+                <p class="facebook-icon"> <i class="material-icons">Facebook</i> </p>
+                <p class="insta-icon"> <i class="material-icons">Instagram</i> </p>
+                <p class="twitter-icon"> <i class="material-icons">Twitter</i> </p>
+                <p class="linkdin-icon"> <i class="material-icons">LinkedIn</i> </p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function toggleTable() {
+            var table = document.getElementById('insurance-table');
+            table.style.display = (table.style.display === 'none' || table.style.display === '') ? 'block' : 'none';
+        }
+
+        $(document).ready(function () {
+            $('.card-slider').slick({
+                infinite: true,
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                draggable: true,
+                prevArrow: '<button type="button" class="slick-prev btne">&#9664;</button>',
+                nextArrow: '<button type="button" class="slick-next btne">&#9654;</button>',
+            });
+        });
+    </script>
+</body>
+
+</html>
